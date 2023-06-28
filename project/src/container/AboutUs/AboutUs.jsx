@@ -14,7 +14,7 @@ const AboutUs = () => (
         <h1 className='headtext__cormorant'>About Us</h1>
         {/* <img src={images.spoon} alt='about_spoon' className='spoon__img'/> */}
           <p className='p__opensans'>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados</p>
-          <buttom type="button" className="custom__button" >Know More</buttom>
+          <button type="button" className="custom__button" >Know More</button>
       </div>
 
       <div className='app__aboutus-content_knife flex__center'></div>
@@ -26,7 +26,7 @@ const AboutUs = () => (
           <h1 className='headtext__cormorant'>Our History</h1>
           {/* <img src={images.spoon} alt='about_spoon' className='spoon__img'/> */}
             <p className='p__opensans'>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados</p>
-            <buttom type="button" className="custom__button" >Know More</buttom>
+            <button type="button" className="custom__button" >Know More</button>
           </div>
 
     </div>
