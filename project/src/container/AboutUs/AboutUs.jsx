@@ -10,10 +10,10 @@ const AboutUs = () => (
     </div>
     
     <div className='app__aboutus-content flex__center'>
-      <div className='app__aboutus-content_about'>
+      <div className='app__aboutus-content_about flex__center'>
         <h1 className='headtext__cormorant'>About Us</h1>
         {/* <img src={images.spoon} alt='about_spoon' className='spoon__img'/> */}
-          <p className='p__opensans'>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados</p>
+          <p className='p__opensans' >O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados</p>
           <button type="button" className="custom__button" >Know More</button>
       </div>
 
@@ -22,7 +22,7 @@ const AboutUs = () => (
 
 
 
-        <div className='app__aboutus-content_history'>
+        <div className='app__aboutus-content_history flex__center'>
           <h1 className='headtext__cormorant'>Our History</h1>
           {/* <img src={images.spoon} alt='about_spoon' className='spoon__img'/> */}
             <p className='p__opensans'>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados</p>

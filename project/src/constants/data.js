@@ -2,57 +2,57 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Corte Simples',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: '',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Corte Simples",
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
+    title: 'Corte Simples',
+    price: '$20',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Corte Simples',
+    price: '$20',
+    tags: '',
   },
 ];
 

@@ -1,6 +1,6 @@
 .app__aboutus{
     position: relative;
-
+    
 }
 
 /* .app__aboutus-overlay{
@@ -17,6 +17,7 @@
 .app_aboutus-content{
     width: 100%;
     z-index: 2;
+    
 }
 
 .app__aboutus-content_about{
@@ -25,18 +26,40 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
+    
     text-align: right;
 }
 
+/* .app__aboutus-content_knife{
+    margin: 4rem 0rem;
+
+} */
+
+/* .app__aboutus-content_knife{     */
+    /* height: 910px; */
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    /* height: 320px; */
+    
+/* } */
+/* .app__aboutus-content_knife img{
+    height: 320px;
+} */
+
+
+
 .app__aboutus-content_knife{
-    margin: 4rem 2rem;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.app__aboutus-content_knife img{    
-    height: 910px;
+.app__aboutus-content_knife img{
+    
+    width: 100px;
 }
+
 
 .app__aboutus-content_history{
     flex: 1;
@@ -49,19 +72,35 @@
 }
 .app__aboutus-content_history p,
 .app__aboutus-content_about p {
-    margin: 2rem 0;
+    margin: 1rem 10;
     color: var(--color-grey)
 
 }
 
+
+@media screen and (max-width: 2000px){
+    
+    .app__aboutus-content_knife img{
+        margin: 1rem 0;
+        width: 0.5%;
+        height: 50px;
+        padding: 200%;
+        
+    }
+}
+
+
 @media screen and (max-width: 1150px){
     .app__aboutus-content_knife img{    
-        height: 100px;
+        /* height: 200px; */
+        margin: 1rem 0;
+        width: 10%;
+        height: 50px;
     }
 
     .app__aboutus-content_history p,
     .app__aboutus-content_about p {
-    margin: 4rem 0;
+    margin: 1rem 0;
 
 }
 }
@@ -71,14 +110,26 @@
         flex-direction: column;
     }
     .app__aboutus-content_knife {
-        margin: 4rem 0;
+        margin: 1rem 0;
+        width: 5%;
+        height: 10px;
+        
     }
-    
+    .app__aboutus-content_knife img{
+        margin: 1rem 0;
+        width: 0.5%;
+        height: 50px;
+        padding: 200%;
+    }
 }
 
 @media screen and (max-width: 650px){
     .app__aboutus-overlay img{
         /* width: 80%; */
-        height: 320px;
+        height:100px;
     }
+    .app__aboutus-content_knife img{
+        height: 400px;
+    }
+
 }
