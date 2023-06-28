@@ -22,7 +22,7 @@ const SpecialMenu = () => (
       </div>
 
 
-      <div className='app__specialMenu-menu-img'>
+      <div className='app__specialMenu-menu_img'>
             <img src={images.menu} alt='menu img'/>
       </div>
 
