@@ -10,7 +10,7 @@ const Header = () => (
       <SubHeading title="Chase the new flavour"/>
       <h1 className='app__header-h1'>The Your Better Experience Is Here</h1>
       <p className='p__opensans' style={{ margin: '2rem 0'}}>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico.</p>
-      <buttom type="button" className='custom__buttom'>Explore Menu</buttom>
+      <buttom type="button" className='custom__button'>Explore Menu</buttom>
     </div>
 
     <div className='app__wrapper_img'>
