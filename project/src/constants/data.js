@@ -2,58 +2,69 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Degradê Navalhado + Barba',
+    price: '$45,00',
     tags: '',
   },
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Degradê na Zero + Barba',
+    price: '$40,00',
     tags: '',
   },
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Degradê Navalhado - Shaver',
+    price: '$30,00',
     tags: '',
   },
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Degradê na Zero',
+    price: '$25,00',
     tags: '',
   },
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Corte Social',
+    price: '$20,00',
     tags: '',
   },
+  {
+    title: "Barba",
+    price: '$20,00',
+    tags: '',
+  },
+  {
+    title: 'Sobrancelha',
+    price: '$10,00',
+    tags: '',
+  },
+  
 ];
 
 const cocktails = [
   {
-    title: 'Corte Simples',
-    price: '$20',
+    title: 'Cabelo & Barba',
+    price: '$140,00',
     tags: '',
   },
   {
-    title: "Corte Simples",
-    price: '$20',
+    title: "Corte Degradê",
+    price: '$90,00',
     tags: '',
   },
-  {
-    title: 'Corte Simples',
-    price: '$20',
-    tags: '',
-  },
-  {
-    title: 'Corte Simples',
-    price: '$20',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Corte Simples',
-    price: '$20',
-    tags: '',
-  },
+  // {
+  //   title: 'Sobrancelha',
+  //   price: '$5',
+  //   tags: '',
+  // },
+  // {
+  //   title: 'Corte Simples',
+  //   price: '$20',
+  //   tags: 'Bourbon | Brown sugar | Angostura Bitters',
+  // },
+  // {
+  //   title: 'Corte Simples',
+  //   price: '$20',
+  //   tags: '',
+  // },
 ];
 
 const awards = [

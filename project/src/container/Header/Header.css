@@ -17,6 +17,66 @@
 
 
 
+/* .fade-out {
+    animation: fade-out 1s forwards;
+  }
+  
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+  .fade-out {
+    animation: fade-out 1s forwards;
+  }
+  
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  /* .ping {
+    animation: ping 1s infinite;
+  }
+  
+  @keyframes ping {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 2000px){
     .app__wrapper_img img{
