@@ -33,17 +33,17 @@ const Header = () => {
           </span>
         ))}
       </h1>
-
-
       <p className='p__opensans' style={{ margin: '1rem 0'}}></p>
-      <button type="button" className='custom__button'>Explore Menu</button>
-    </div>
+      <button type="button" className="custom__button" >Explore o Menu</button>
 
+      
+    </div>
     <div className='app__wrapper_img'>
       <img src={images.welcome} alt='header img'/>
 
 
     </div>
+
   </div>
   )
   
