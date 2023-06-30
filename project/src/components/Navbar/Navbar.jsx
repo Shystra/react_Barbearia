@@ -26,13 +26,13 @@ return(
       <li className='p__cormorant'><a href='#contact'>Contact</a></li>
     </ul>
 
-    <div className='app__navbar-login'>
+    {/* <div className='app__navbar-login'>
       <a href='#login' className='p__cormorant'>Log In_Temporary</a>
       <div/>
       <a href='/' className='p__cormorant'>Book Table</a>
 
 
-    </div>
+    </div> */}
     
     <div className='app__navbar-smallscreen'>
       <GiHamburgerMenu 
