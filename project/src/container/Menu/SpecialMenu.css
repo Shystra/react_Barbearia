@@ -39,9 +39,9 @@
 }
 
 .app__specialMenu-menu_img img {
-    padding: 20%;
+    padding: 5%;
     width: 100%;
-    /* height: auto; */
+    
 }
 
 .app__specialMenu_menu_items{
@@ -91,10 +91,19 @@
     } */
 }
 
+@media screen and (max-width: 900px){
+    
+    .app__specialMenu-menu_img img{
+        width: 100%;
+        
+        margin: 2rem 0
+    }
+}
+
 @media screen and (max-width: 600px) {
     .app__specialMenu-menu_img{
         
-        width: 350px;
+        width: 389px;
     }
     .app__specialMenu-menu_img img{
         height: 325px;
