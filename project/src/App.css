@@ -75,8 +75,8 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 29.9px;
-  font-size: 23px;
+  /* line-height: 29.9px; */
+  font-size: 18px;
 }
 
 .p__opensans {
@@ -93,10 +93,10 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 50px;
+  font-size: 45px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .spoon__img {
@@ -157,7 +157,7 @@
   .p__cormorant {
     font-size: 21px;
   }
-
+  
   .p__opensans {
     font-size: 14px;
   }
@@ -169,11 +169,11 @@
   }
 
   .p__cormorant {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .headtext__cormorant {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 70px;
   }
 }

@@ -7,7 +7,7 @@ import './Header.css';
 import ImageComponent from './ImageComponent';
 
 const Header = () => {
-  const [phrases, setPhrases] = useState(['"Corte, estilo e confiança..."', '"tudo em um só lugar!"']);
+  const [phrases, setPhrases] = useState(['"Corte, Estilo & Confiança..."', '"Tudo em um só Lugar!"']);
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -30,10 +30,10 @@ const Header = () => {
 
   return  (
     
-  <div className='app__header app__wrapper section__padding' id='home'>
+  <div className='app__header app__bg app__wrapper section__padding' id='inicio'>
     <div className='app__wrapper_info'>
       {/* <SubHeading title="Chase the new flavour"/> */}
-      <h1 className='app__header-h1'>
+      <h1 className='app__header-h1 headtext__cormorant '>
         {phrases[currentPhraseIndex].split('').map((word, index) => (
           <span key={index} className={isAnimating ? 'fade-out' : ''}>
             {word}

@@ -15,36 +15,38 @@ const Gallery = () => {
     const {current} = scrollRef;
 
     if(direction === 'left'){
-      current.scrollLeft -= 300; 
+      current.scrollLeft -= 1000; 
     }else{
-      current.scrollLeft += 300;
+      current.scrollLeft += 1000;
     }
   }
   
 
   return (
-    <div className='app__gallery flex__center'>
+    <div className='app__gallery app__bg flex__center' id='galeria'>
       <div className='app__gallery-content'>
         <SubHeading title="Instagram"/>
-        <h1 className='headtext__cormorant'>Photo Gallery</h1>
+        <h1 className='headtext__cormorant'>Fotos Galeria</h1>
 
         <p className='p__opensans' style={{ color: '#AAA', marginTop: '2' }}>Lorem ipsun text</p>
-        <button type='button' className='custom__button'>View More</button>
+        <button type='button' className='custom__button'>Ver Mais</button>
       </div>
       
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
-          {/* {galleryImages.map((image, index) => (
+          {galleryImages.map((image, index) => (
             <div className='app__gallery-images_card flex__center' key={`gallery_image-${ index + 1 }`}>
               <img src={image} alt='gallery'/>
+              <BsInstagram className='gallery__image-icon'/>
 
             </div>
-          ))} */}
+          ))}
 
 
 
 
-        </div>  
+        
+        </div>
           <div className='app__gallery-images_arrow'>
             <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />
             <BsArrowRightShort className='gallery__arrow-icon' onClick={() => scroll('right')} />

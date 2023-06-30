@@ -2,14 +2,14 @@
     background-color: var(--color-black);
 }
 
-.app__header-h1{
+/* .app__header-h1{
     font-family: (--font-base);
     color: var(--color-golden);
     letter-spacing: 0.10rem;
     text-transform: uppercase;
     line-height: 60px;
-    font-size: 35px;
-}
+    font-size: 45px;
+} */
 
 
 /* .app__header-img img{
@@ -227,10 +227,12 @@
     }
 }
 
+
+
 @media screen and (max-width: 900px){
     .app__wrapper_img img{
         /* width: 100%; */
-        height: 400px;
+        height: 600px;
         margin: 2rem 0
     }
 }
@@ -252,6 +254,6 @@
 }
 @media screen and (max-width: 620px){
     .app__header-h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 }
