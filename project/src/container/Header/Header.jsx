@@ -1,13 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import { Element, scroller } from 'react-scroll';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Header.css';
+import ImageComponent from './ImageComponent';
 
 const Header = () => {
   const [phrases, setPhrases] = useState(['"Corte, estilo e confiança..."', '"tudo em um só lugar!"']);
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+
+  // SCROLL IMAGE
+
+
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -38,8 +45,9 @@ const Header = () => {
 
       
     </div>
-    <div className='app__wrapper_img'>
-      <img src={images.welcome} alt='header img'/>
+    <div className='app__wrapper_img'>   
+      <ImageComponent/>
+      {/* <img src={images.welcome} alt='header img'/> */}
 
 
     </div>

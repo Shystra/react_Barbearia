@@ -108,7 +108,7 @@
       transform: scale(1.1);
       }
 
-  .app__wrapper_img {
+  /* .app__wrapper_img {
     -webkit-animation-name: app__wrapper_img;
     animation-name: app__wrapper_img;
     -webkit-animation-duration: 2s;
@@ -146,7 +146,71 @@
     
     }
     
-    } 
+    }  */
+
+
+
+    .app__wrapper_img img{
+      opacity: 0;
+      transform: translateX(-100%);
+      transition: opacity 0.9s, transform 0.9s;
+    }
+    
+    .app__wrapper_img.slideInLeft {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* EFEITO DE DESLIZEEEE
+
+
+    /* .app__wrapper_img {
+      -webkit-animation-name: app__wrapper_img;
+      animation-name: app__wrapper_img;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      will-change: transform; 
+    
+      
+    }
+    
+    @-webkit-keyframes app__wrapper_img {
+      0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes app__wrapper_img {
+      0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+    } */
+
+
 
     
       
