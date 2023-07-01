@@ -29,12 +29,12 @@ return(
       <li className='p__cormorant'><a href="#galeria">Galeria</a></li>
       <li className='p__cormorant'><a href='#sobre'>Sobre</a></li>
       <li className='p__cormorant'><a href='#contato'>Contato</a></li>
-      <li className='p__cormorant'><a href=''></a></li>
+     
     </ul>
 
     <div className='app__navbar-links_icons'>
       <a href={urlInstagram} target='_blank' rel='noopener'><BsInstagram/></a>
-      <a href={urlFacebook} target='_blank' rel='noopener'><BsFacebook/></a>
+      {/* <a href={urlFacebook} target='_blank' rel='noopener'><BsFacebook/></a> */}
       <a href={urlWhatsApp} target='_blank' rel='noopener'><BsWhatsapp/></a>
       
     </div>
