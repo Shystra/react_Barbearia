@@ -23,7 +23,7 @@ return(
       <li className='p__cormorant'><a href='#servicos'>Serviços</a></li>
       <li className='p__cormorant'><a href="#galeria">Galeria</a></li>
       <li className='p__cormorant'><a href='#sobre'>Sobre</a></li>
-      <li className='p__cormorant'><a href='#contact'>Contact</a></li>
+      <li className='p__cormorant'><a href='#contato'>Contato</a></li>
     </ul>
 
     {/* <div className='app__navbar-login'>
@@ -49,7 +49,7 @@ return(
         <li className='p__cormorant'><a href='#servicos' onClick={() => setToggleMenu(false)}>Serviços</a></li>
         <li className='p__cormorant'><a href='#galeria' onClick={() => setToggleMenu(false)}>Galeria</a></li>
         <li className='p__cormorant'><a href='#sobre' onClick={() => setToggleMenu(false)}>Sobre</a></li>
-        <li className='p__cormorant'><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
+        <li className='p__cormorant'><a href='#contato' onClick={() => setToggleMenu(false)}>Contato</a></li>
       </ul>
     </div>
     )}

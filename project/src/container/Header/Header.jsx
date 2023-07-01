@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Element, scroller } from 'react-scroll';
+
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';

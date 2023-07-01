@@ -23,7 +23,7 @@ const Gallery = () => {
   
 
   return (
-    <div className='app__gallery app__bg flex__center' id='galeria'>
+    <div className='app__gallery flex__center' id='galeria'>
       <div className='app__gallery-content'>
         <SubHeading title="Instagram"/>
         <h1 className='headtext__cormorant'>Fotos Galeria</h1>
