@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { CgClose } from 'react-icons/cg';
 import { SubHeading } from '../../components';
+import {BsFacebook, BsInstagram, BsWhatsapp} from 'react-icons/bs'
 
 import images from '../../constants/images';
 
@@ -11,6 +12,10 @@ import './Navbar.css';
 const Navbar = () => {
 const [toggleMenu, setToggleMenu] = useState(false);  
 
+
+const urlInstagram = "https://www.instagram.com/felipao.barbershop/";
+const urlFacebook = '';
+const urlWhatsApp = 'https://api.whatsapp.com/send/?phone=5541999216613&text&type=phone_number&app_absent=0';
 
 return(
   <nav className='app__navbar'>
@@ -24,15 +29,15 @@ return(
       <li className='p__cormorant'><a href="#galeria">Galeria</a></li>
       <li className='p__cormorant'><a href='#sobre'>Sobre</a></li>
       <li className='p__cormorant'><a href='#contato'>Contato</a></li>
+      <li className='p__cormorant'><a href=''></a></li>
     </ul>
 
-    {/* <div className='app__navbar-login'>
-      <a href='#login' className='p__cormorant'>Log In_Temporary</a>
-      <div/>
-      <a href='/' className='p__cormorant'>Book Table</a>
-
-
-    </div> */}
+    <div className='app__navbar-links_icons'>
+      <a href={urlInstagram} target='_blank' rel='noopener'><BsInstagram/></a>
+      <a href={urlFacebook} target='_blank' rel='noopener'><BsFacebook/></a>
+      <a href={urlWhatsApp} target='_blank' rel='noopener'><BsWhatsapp/></a>
+      
+    </div>
     
     <div className='app__navbar-smallscreen'>
       <GiHamburgerMenu 

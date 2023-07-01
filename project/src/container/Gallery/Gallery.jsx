@@ -9,6 +9,7 @@ import './Gallery.css';
 const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04]
 
 const Gallery = () => {
+  const urlInstagram = 'https://www.instagram.com/felipao.barbershop/'
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
@@ -36,13 +37,13 @@ const Gallery = () => {
         <div className='app__gallery-images_container' ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div className='app__gallery-images_card flex__center' key={`gallery_image-${ index + 1 }`}>
-              <img src={image} alt='gallery'/>
-              <BsInstagram className='gallery__image-icon'/>
+              <img src={image} alt='gallery'/><a className='gallery__image-icon' href={urlInstagram} target='_blank' rel='noopener'><BsInstagram/></a>
+              {/* <BsInstagram className='gallery__image-icon'/> */}
 
             </div>
           ))}
 
-
+              {/* <a href={urlInstagram} target='_blank' rel='noopener'><BsInstagram/></a> */}
 
 
         
