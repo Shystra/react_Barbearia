@@ -19,6 +19,7 @@ const App = () => (
 
     {/* <FindUs /> */}
     <Footer />
+    
   </div>
 );
 

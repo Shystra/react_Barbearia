@@ -51,10 +51,17 @@ return(
       fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
        <ul className='app__navbar-smallscren_links'>
         <li className='p__cormorant'><a href='#inicio'  onClick={() => setToggleMenu(false)}>Inicio</a></li>
+        
         <li className='p__cormorant'><a href='#servicos' onClick={() => setToggleMenu(false)}>Serviços</a></li>
+        
         <li className='p__cormorant'><a href='#galeria' onClick={() => setToggleMenu(false)}>Galeria</a></li>
+       
         <li className='p__cormorant'><a href='#sobre' onClick={() => setToggleMenu(false)}>Sobre</a></li>
+        
         <li className='p__cormorant'><a href='#contato' onClick={() => setToggleMenu(false)}>Contato</a></li>
+        
+        <li className='p__cormorant'><a href={urlWhatsApp} onClick={() => setToggleMenu(false)}>Agendamento</a></li>
+
       </ul>
     </div>
     )}
