@@ -9,7 +9,7 @@
     flex-direction: column;
 
     /* background: black; */
-    background-image: linear-gradient(black, black, black, gray,black );
+    background-image: linear-gradient(gray, black, black, black);
     padding-top: 0;
 }
 
