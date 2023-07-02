@@ -72,10 +72,10 @@
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.07em;
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
-  /* line-height: 29.9px; */
+  line-height: 45px;
   font-size: 18px;
 }
 
@@ -141,6 +141,10 @@
   .app__wrapper_img img {
     width: 100%;
   }
+
+  .p__cormorant {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -169,7 +173,7 @@
   }
 
   .p__cormorant {
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .headtext__cormorant {
