@@ -53,7 +53,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  /* background-color: var(--color-crimson);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -64,8 +64,49 @@
     border-radius: 1px;
     border: none;
     outline: none;
-    cursor: pointer;
+    cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    width: 15em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 16px;
+    /* font-family: inherit; */
+    font-family: var(--font-base);
+    /* background-color: var(--color-crimson); */
+    background-image: linear-gradient(var(--color-golden),black, black);
+    color: aliceblue;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    /* box-shadow: 6px 6px 12px #000000 
+    -6px -6px 12px #fcfcfc ; */
+    
+}
+.custom__button::before{
+  content: '';
+  width: 0;
+  height: 3em;
+  /* border-radius: 30em; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  background-image: linear-gradient(
+    to right, black 0%, var(--color-golden) 100%
+  );
+
+  
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+.custom__button:hover::before{
+  width: 15em;
 }
 
 .p__cormorant {

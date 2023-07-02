@@ -1,8 +1,12 @@
 import React from 'react';
 
-import { SubHeading, MenuItem } from '../../components';
+import {  MenuItem } from '../../components';
 import { images, data } from '../../constants';
 import './SpecialMenu.css';
+
+
+
+const urlWhatsApp = 'https://api.whatsapp.com/send/?phone=5541999216613&text&type=phone_number&app_absent=0';
 
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='servicos'>
@@ -38,7 +42,7 @@ const SpecialMenu = () => (
     </div>
 
        <div style={{marginTop: '15px'}}>
-        <button type='button' className='custom__button'>Marque um Horário</button>
+        <button type='button' className='custom__button'><a href={urlWhatsApp}>Agende Seu Horário</a></button>
        </div>
 
   </div>

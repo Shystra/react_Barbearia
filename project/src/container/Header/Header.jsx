@@ -41,7 +41,7 @@ const Header = () => {
         ))}
       </h1>
       <p className='p__opensans' style={{ margin: '1rem 0'}}></p>
-      <button type="button" className="custom__button" >Explore o Menu</button>
+      <button type="button" className="custom__button"><a href='#servicos'>Explore o Menu</a></button>
 
       
     </div>
