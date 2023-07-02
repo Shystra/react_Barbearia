@@ -1,6 +1,5 @@
 .app__aboutus{
-    position: relative;
-    background: black;
+    background-image: linear-gradient(black, black, gray, black, black );
     
 }
 

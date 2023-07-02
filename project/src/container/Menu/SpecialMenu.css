@@ -1,6 +1,7 @@
 .app__specialMenu{
     flex-direction: column;
-    background: black;
+    /* background: black; */
+    background-image: linear-gradient(black, black, gray, black, black  );
 }
 
 .app__specialMenu-title{

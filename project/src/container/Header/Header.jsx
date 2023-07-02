@@ -29,8 +29,8 @@ const Header = () => {
   }, [phrases]);
 
   return  (
-    
-  <div className='app__header app__bg app__wrapper section__padding' id='inicio'>
+    // app__bg
+  <div className='app__header app__wrapper section__padding' id='inicio'>
     <div className='app__wrapper_info'>
       {/* <SubHeading title="Chase the new flavour"/> */}
       <h1 className='app__header-h1 headtext__cormorant '>
