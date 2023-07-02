@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
+// import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { CgClose } from 'react-icons/cg';
-import { SubHeading } from '../../components';
-import {BsFacebook, BsInstagram, BsWhatsapp} from 'react-icons/bs'
+// import { SubHeading } from '../../components';
+import {BsInstagram, BsWhatsapp} from 'react-icons/bs'
 
 import images from '../../constants/images';
 
