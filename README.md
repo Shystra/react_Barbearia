@@ -6,5 +6,8 @@
 
    ![image](https://github.com/Shystra/react_Barbearia/assets/124002796/91552724-447c-4b2f-bbac-e9b315ae6b7b)
 
+   ![image](https://github.com/Shystra/react_Barbearia/assets/124002796/e00bccb0-9a2a-4b3e-8c8d-30283f476f1d)
+
+
 
  
