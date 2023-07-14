@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
 
-    background-image: linear-gradient(gray,  black);
+    background-image: radial-gradient(circle at 42.36% 6.67%, #4b3126 0, #422a23 10%, #36231e 20%, #281a19 30%, #1a1110 40%, #010000 50%, #000000 60%, #000000 70%, #000000 80%, #000000 90%, #000000 100%);
     padding: 4rem 0;
     padding: 8rem 0 4rem 6rem;
 }

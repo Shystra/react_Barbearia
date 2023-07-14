@@ -9,7 +9,7 @@
     flex-direction: column;
 
     /* background: black; */
-    background-image: linear-gradient(gray, black, black, black);
+    background-image: radial-gradient(circle at 50% 6%, #2e1e1b 0, #221716 16.67%, #160e0e 33.33%, #010000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
     padding-top: 0;
 }
 
