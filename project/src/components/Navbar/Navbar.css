@@ -5,7 +5,7 @@
     align-items: center;
     /* background-color: black; */
     /* background-image: radial-gradient(circle at 120.71% 50%, #6361a3 0, #31345b 25%, #030318 50%, #000000 75%, #000000 100%); */
-    background-image: radial-gradient(circle at 50% 50%, #472e25 0, #3a2520 12.5%, #2c1c1a 25%, #1c1212 37.5%, #010000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    background-image: radial-gradient(circle at 120.71% 50%, #311917 0, #23100f 25%, #140000 50%, #000000 75%, #000000 100%);
     /* background-image: linear-gradient(); */
     padding: 1rem 2rem;
 
@@ -89,7 +89,7 @@
     width: 100%;
     height: 100vh;
     /* background: var(--color-black); */
-    background-image: linear-gradient(black, black,gray );
+    background-image: radial-gradient(circle at 50% 120.71%, #40221c 0, #321a17 16.67%, #23110f 33.33%, #140000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
     transition: 0.9s ease;
 
     flex-direction: column;

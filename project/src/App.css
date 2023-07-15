@@ -75,7 +75,7 @@
     font-size: 20px;
     /* font-family: inherit; */
     font-family: var(--font-base);
-    background-color: var(--color-golden);
+    background-color: var(--color-crimson);
     /* background-image: linear-gradient(var(--color-golden),black, black); */
     /* background-image: radial-gradient(circle at 109.81% 55.23%, #452a2a 0, #372224 12.5%, #291a1c 25%, #191113 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%); */
     color: rgb(0, 0, 0);
