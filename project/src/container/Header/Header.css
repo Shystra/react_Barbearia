@@ -1,7 +1,7 @@
 .app__header{
     /* background-image: linear-gradient(black, gray, black ); */
     /* background-image: radial-gradient(circle at 120.71% 50%, #6361a3 0, #31345b 25%, #030318 50%, #000000 75%, #000000 100%); */
-    background-image: radial-gradient(circle at 50% -20.71%, #613f23 0, #5c3823 8.33%, #533022 16.67%, #47271e 25%, #381d19 33.33%, #271311 41.67%, #140000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
+    background-image: radial-gradient(circle at 120.71% 50%, #311917 0, #23100f 25%, #140000 50%, #000000 75%, #000000 100%);
 }
 
 /* .app__header-h1{
