@@ -1,37 +1,45 @@
+/* body{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+
+
+
+
 .app__header{
-    /* background-image: linear-gradient(black, gray, black ); */
-    /* background-image: radial-gradient(circle at 120.71% 50%, #6361a3 0, #31345b 25%, #030318 50%, #000000 75%, #000000 100%); */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+
+      
     background-image: radial-gradient(circle at 120.71% 50%, #311917 0, #23100f 25%, #140000 50%, #000000 75%, #000000 100%);
 }
+.app__header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-/* .app__header-h1{
-    font-family: (--font-base);
-    color: var(--color-golden);
-    letter-spacing: 0.10rem;
-    text-transform: uppercase;
-    line-height: 60px;
-    font-size: 45px;
-} */
+  background-image: url('../../assets/welcome.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  opacity: 0.5;
+  transform: scale(1);
 
-
-/* .app__header-img img{
-    width: 100px;
-} */
-
-
-
-/* .fade-out {
-    animation: fade-out 1s forwards;
-  }
+  /* z-index: 0.5; */
   
-  @keyframes fade-out {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  } */
+
+}
+
+
+
+
   .fade-out {
     animation: fade-out 1s forwards;
   }
@@ -44,21 +52,6 @@
       opacity: 0;
     }
   }
-  /* .ping {
-    animation: ping 1s infinite;
-  }
-  
-  @keyframes ping {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  } */
 
 
 
@@ -74,81 +67,30 @@
 
 
 
-
-/* .app__wrapper_img {
-    transition: transform 0.3s;
-    cursor: pointer;
-  }
-  
-.app__wrapper_img:hover {
-    transform: scale(1.1);
-  } */
-
-
-/* .app__wrapper_img {
-    display: block;
-    transition: transform 0.3s;
-    cursor: pointer;
-
-  } */
 
     .app__wrapper_img{
-      display: flex;
+      /* display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px; 
+      gap: 20px;  */
+      padding: 90px;
+      width: 100%;
+      margin: 0 auto 15px auto;
+    
       }
     .app__wrapper_img img{
-      width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+
+      
+    width: 200px; 
     height: 150px;
-    object-fit: cover; /* Para manter a proporção e preencher o espaço */
-    display: block; /* Efeito de display block */
+    object-fit: cover; 
+    display: block; 
     transition: transform 0.3s;
     cursor: pointer;
       }
     .app__wrapper_img img:hover {
       transform: scale(1.1);
       }
-
-  /* .app__wrapper_img {
-    -webkit-animation-name: app__wrapper_img;
-    animation-name: app__wrapper_img;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    
-    
-    }
-    @-webkit-keyframes app__wrapper_img {
-    0% {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    visibility: visible;
-    
-    
-    }
-    100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    
-    }
-    }
-    @keyframes app__wrapper_img {
-    0% {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    visibility: visible;
-    
-    }
-    100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    
-    
-    }
-    
-    }  */
 
 
 
@@ -212,10 +154,65 @@
       }
     } */
 
+.app__gallery_header{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  position: relative;
+}
+.app__gallery_images_card_header{
+  
+  position: relative;
+    min-width: 301px;
+    height: 447px;
+    margin-right: 1.5rem;
+}
+.app__gallery_images_card_header img{
+  
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 2;
+    transition: 0.9s ease;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.app__gallery_images_card_header:hover img{
+  opacity: 0.35;
+  transform: scale(1.1);
+}
+/* .app__gallery_images_card_header:hover .gallery__image-icon{
+  opacity: 1;
+} */
 
 
+
+.app__gallery_images_container{
+  display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.app__gallery_images_container::-webkit-scrollbar{
+    display: none;
+}
     
       
+
+    
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 2000px){
     .app__wrapper_img img{
@@ -227,16 +224,68 @@
     .app__wrapper_img:hover > img{
         transition: opacity 1s, transform 1s;
     }
+
+    .app__gallery_images_card_header{
+      min-width: 400px;
+        height: 550px;
+        border-radius: 5%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+  
+  .app__gallery_header{
+    
+    max-width: 100%;
+    margin: 2rem 0;
+    
+    /* flex-direction: column;
+    max-width: 100%; */
+  }
+  .app__gallery_images_card_header{
+    
+      border-radius: 5%;
+  }
+
+  
+  .app__wrapper_img{
+    padding: 25px;
+    
+  }
 }
 
 
 
 @media screen and (max-width: 900px){
-    .app__wrapper_img img{
-        /* width: 100%; */
-        height: 600px;
-        margin: 2rem 0
-    }
+  .app__wrapper_img img{
+    /* width: 100%; */
+    height: 600px;
+    margin: 2rem 0
+
+  }
+ 
+
+ 
+
+}
+@media screen and (max-width: 768px){
+  .app__header {
+
+    background-size: contain;
+    
+  }
+  
+  .app__wrapper_img{
+    padding: 100px;
+    
+  }
+  
+  .app__header::before {
+    background-position: -40rem;
+   
+    transform: scale(1); 
+    
+  }
 }
 
 @media screen and (max-width: 420px){
@@ -244,6 +293,17 @@
         width: 50%;
         height: 320px;
     }
+    .app__header::before {
+      background-position: -25rem;
+     
+      transform: scale(1); 
+      
+    }
+    .app__wrapper_img{
+      padding: 10px;
+      
+    }
+    
 }
 
 
@@ -253,9 +313,31 @@
     .app__header-h1{
         font-size: 50px;
     }
+    
 }
+
+@media screen and (max-width: 650px){
+  .app__gallery_images_card_header{
+    
+    min-width: 280px;
+    height: 500px;
+  }
+}
+
 @media screen and (max-width: 620px){
     .app__header-h1{
         font-size: 30px;
     }
+    .app__gallery_images_card_header{
+    
+      min-width: 200px;
+      height: 310px;
+    }
+    .app__wrapper_img{
+      padding: 15px;
+      
+    }
+    
 }
+
+
